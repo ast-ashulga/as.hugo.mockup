@@ -15,7 +15,8 @@
       "Read(//Users/andreyshulga/projects/experimental/anil/as.anil.setu/companies/**)",
       "Bash(find:*)",
       "Read(//Users/andreyshulga/Library/Caches/hugo_cache/modules/**)",
-      "Read(//Users/andreyshulga/projects/experimental/anil/as.anil.setu/**)"
+      "Read(//Users/andreyshulga/projects/experimental/anil/as.anil.setu/**)",
+      "Bash(curl:*)"
     ],
     "deny": [],
     "ask": []

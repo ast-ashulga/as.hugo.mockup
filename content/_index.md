@@ -81,6 +81,8 @@ sections:
         - name: "DGCA Certified Operations"
           icon: shield-check
           description: "All drone pilots DGCA-certified with RTK-enabled precision mapping achieving centimeter-level accuracy. GeM portal registered vendor with ISO 27001 compliance standards."
+    design:
+      css_class: "features-inline-header"
   - block: features
     id: use-cases
     content:
@@ -111,7 +113,7 @@ sections:
           url: "/use-cases/transportation/"
     design:
       # Section background color (CSS class)
-      css_class: "bg-gray-100 dark:bg-gray-900"
+      css_class: "features-inline-header bg-gray-100 dark:bg-gray-900"
   - block: features
     id: technology
     content:
@@ -139,6 +141,8 @@ sections:
         - name: "Mobile & Field Apps"
           icon: device-phone-mobile
           description: "QField, ArcGIS Field Maps, React Native, Flutter for offline-capable field data collection with GPS integration and real-time synchronization."
+    design:
+      css_class: "features-inline-header"
   - block: cta-card
     content:
       title: "Transform Your Spatial Data Into Strategic Intelligence"

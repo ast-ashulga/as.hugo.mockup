@@ -1,0 +1,66 @@
+/* Custom styles for Setu Geo Spatial website */
+
+/* Features block - Icon and title on same line */
+/* Target the individual feature items within the grid */
+.features-inline-header .space-y-8 > div,
+.features-inline-header .md\:grid > div {
+  display: grid !important;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto;
+  gap: 0 1rem;
+  align-items: start;
+}
+
+/* Icon container - position in first column, first row */
+.features-inline-header .space-y-8 > div > div:first-child,
+.features-inline-header .md\:grid > div > div:first-child {
+  grid-column: 1;
+  grid-row: 1;
+  margin-bottom: 0 !important;
+  /* Keep the original justify-center for icon centering in circle */
+}
+
+/* Title - position in second column, first row */
+.features-inline-header .space-y-8 > div > h3,
+.features-inline-header .md\:grid > div > h3 {
+  grid-column: 2;
+  grid-row: 1;
+  margin-bottom: 0 !important;
+  margin-top: 0.25rem;
+  align-self: start;
+}
+
+/* Description - span both columns, second row */
+.features-inline-header .space-y-8 > div > p,
+.features-inline-header .md\:grid > div > p {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  margin-top: 1rem !important;
+}
+
+/* Responsive adjustments for mobile - stack on small screens */
+@media (max-width: 768px) {
+  .features-inline-header .space-y-8 > div,
+  .features-inline-header .md\:grid > div {
+    display: flex !important;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .features-inline-header .space-y-8 > div > div:first-child,
+  .features-inline-header .md\:grid > div > div:first-child {
+    margin-bottom: 0.5rem !important;
+    justify-content: center !important;
+  }
+
+  .features-inline-header .space-y-8 > div > h3,
+  .features-inline-header .md\:grid > div > h3 {
+    margin-bottom: 0.5rem !important;
+    margin-top: 0;
+  }
+
+  .features-inline-header .space-y-8 > div > p,
+  .features-inline-header .md\:grid > div > p {
+    margin-top: 0 !important;
+  }
+}
