@@ -4,6 +4,22 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
+**Marketing website for Setu Geo Spatial Software Technologies** - a brand new GIS software development company focused on geospatial intelligence solutions for Indian government agencies and enterprises.
+
+**Company Names:**
+- Full: Setu Geo Spatial Software Technologies
+- Short: Setu Geo Spatial
+- Abbreviation: SGS
+
+**CRITICAL CONTEXT:**
+- **Setu Geo Spatial is a NEW company** - Currently in formation stage, not yet officially established
+- **No existing solutions or projects** - The company has not created or delivered any solutions yet
+- **Portfolio site purpose** - This website is required to present the new company to potential clients and establish market presence
+- **Marketing focus** - Site showcases planned service offerings and capabilities to attract initial clients
+
+**Project Status:** Site is under construction for a startup company entering the market. Primary goal is brand building and professional marketing presence to attract initial clients.
+
+**Technical Stack:**
 Hugo Landing Page site built with **Hugo Blox Builder** and **Tailwind CSS v4**. This is a Hugo static site generator project using the Landing Page template with block-based page building system.
 
 **Key Technologies:**
@@ -73,13 +89,28 @@ Hugo uses a split configuration system in `config/_default/`:
 
 ```
 content/
-├── authors/           # Author profiles (build: never by default)
-├── blog/             # Blog posts with date-title-summary view
-│   └── [post]/       # Individual post directories
-│       └── index.md  # Post content + frontmatter
+├── _index.md         # Homepage with hero, stats, features sections
+├── about/            # Company overview, mission, vision, capabilities
+├── services/         # Seven core service categories, industry solutions
+├── use-cases/        # Featured implementations:
+│   ├── disaster-management/
+│   ├── precision-agriculture/
+│   ├── urban-development/
+│   └── utilities-infrastructure/
+├── contact/          # Contact form and information
+├── blog/             # Blog posts (date-title-summary view)
+│   ├── geospatial-urban-planning/  # Relevant GIS content
+│   └── [template-posts]/            # Generic template posts (can be removed)
+├── authors/          # Author profiles (build: never by default)
 ├── privacy.md        # Privacy policy
 └── terms.md          # Terms of service
 ```
+
+**Site Structure Notes:**
+- Homepage emphasizes AI-enabled geospatial intelligence for government & enterprise
+- Services page details 7 core categories (Custom GIS, Data Services, Remote Sensing, Analytics, Government/Infrastructure, Cloud/AI, Training/Consulting)
+- Use cases demonstrate specific applications (cadastral surveys, disaster assessment, smart cities, precision farming)
+- Blog includes one GIS-focused post; template posts should eventually be replaced with company-specific content
 
 **Blog Post Cascade Settings** (`hugo.yaml`):
 - Comments enabled, reading time shown, related posts displayed
@@ -141,6 +172,32 @@ Content here
 3. **Blox Auto-Mount**: Custom blox placed in correct folders are automatically available
 4. **Author Profiles**: Set to `build: never` by default - remove this in `content/authors/_index.md` to publish
 5. **Image Processing**: Hugo uses `lanczos` filter at 90% quality (see `hugo.yaml` imaging config)
+
+## Company-Specific Content Guidelines
+
+**Brand Identity:**
+- Company name: Always use "Setu Geo Spatial Software Technologies" (full) or "Setu Geo Spatial" (short form)
+- Tagline emphasis: "AI-Enabled Geospatial Intelligence for Government & Enterprise"
+- Geographic focus: Indian government agencies and enterprises, with Gujarat as base
+- Abbreviation: SGS (use sparingly in technical contexts only)
+
+**Content Strategy:**
+- Target audience: Government departments (Revenue, Disaster Management, Urban Development) and enterprise clients
+- Key differentiators: End-to-end service delivery, AI + Drone technology, government procurement experience, technology-agnostic approach
+- Planned core services: 7 categories spanning GIS development, data services, remote sensing, analytics, government solutions, cloud/AI, training
+- Technical credibility: Emphasize planned DGCA certification, GeM portal registration, ISO 27001 compliance, OGC standards
+- Content tone: Present capabilities professionally while being honest about startup stage (avoid claiming completed projects or existing clients)
+
+**Project Reference (company_setu_geo_spatial.md):**
+- Untracked document in project root contains comprehensive service portfolio and use case details
+- Use as reference for creating new content pages or expanding existing sections
+- Lists 13+ industry sectors with specific use cases (Urban Planning, Utilities, Transportation, Agriculture, etc.)
+
+**Tone & Messaging:**
+- Professional but approachable; avoid overly technical jargon
+- Emphasize practical outcomes and business value over technology features
+- Use specific metrics where possible (e.g., "10-50x faster processing", "centimeter-level accuracy")
+- Government-friendly language: compliance, integration, multi-department coordination
 
 ## Deployment
 
