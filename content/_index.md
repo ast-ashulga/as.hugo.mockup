@@ -10,17 +10,17 @@ design:
 sections:
   - block: hero
     content:
-      title: Setu Geo Spatial Software Technologies
-      text: Transforming Geographic Data into Actionable Intelligence for Smarter Decisions
+      title: "AI-Enabled Geospatial Intelligence for Government & Enterprise"
+      text: Transform complex spatial data into actionable insights. Custom GIS solutions, drone mapping, and AI-powered analytics to help Indian government agencies and enterprises make data-driven decisions, optimize operations, and accelerate infrastructure development.
       primary_action:
-        text: Explore Our Solutions
-        url: /services/
+        text: Request Demo
+        url: /contact/
         icon: rocket-launch
       secondary_action:
         text: View Case Studies
         url: /use-cases/
       announcement:
-        text: "Trusted by leading organizations for geospatial innovation."
+        text: "Trusted by Gujarat Government departments for geospatial innovation."
         link:
           text: "Learn how"
           url: "/about/"
@@ -40,18 +40,18 @@ sections:
   - block: stats
     content:
       items:
-        - statistic: "100+"
+        - statistic: "17+"
           description: |
-            Projects Completed  
-            Globally
-        - statistic: "15+"
+            Use Cases
+            Across Sectors
+        - statistic: "33"
           description: |
-            Years of  
-            Experience
-        - statistic: "20+"
-          description: |
-            Industries  
+            Districts
             Served
+        - statistic: "95%"
+          description: |
+            Assessment
+            Accuracy
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
@@ -61,73 +61,78 @@ sections:
   - block: features
     id: features
     content:
-      title: Our Core Capabilities
-      text: "Advanced geospatial solutions for complex challenges"
+      title: Key Value Propositions
+      text: "Why government agencies and enterprises choose Setu Geo Spatial"
       items:
-        - name: "GIS Development & Integration"
-          icon: computer-desktop
-          description: "Custom Geographic Information Systems tailored to your specific operational requirements."
-        - name: "Remote Sensing & Analysis"
-          icon: globe-alt
-          description: "Advanced satellite and drone imagery processing for environmental and urban monitoring."
-        - name: "Spatial Analytics & Modeling"
-          icon: chart-bar
-          description: "Deep spatial analysis to extract insights and predict trends from geographic data."
-        - name: "Web Mapping Solutions"
-          icon: map
-          description: "Interactive online platforms for sharing and analyzing spatial information."
-        - name: "Real-time Monitoring"
+        - name: "End-to-End GIS Solutions"
           icon: arrows-circular
-          description: "Dynamic tracking and alerting for critical spatial events and changes."
-        - name: "Predictive Modeling"
+          description: "From data acquisition and drone surveys to custom GIS application development and cloud deployment. Single partner for all spatial intelligence needs with complete project lifecycle management."
+        - name: "AI + Drone Technology Advantage"
           icon: sparkles
-          description: "AI-powered models for forecasting geographic and environmental patterns."
+          description: "Proprietary AI models transform raw geospatial data into actionable intelligence. Automated boundary detection, damage assessment, and crop health analysis reduce manual processing time by 10-50x."
+        - name: "Government Procurement Experience"
+          icon: building-office
+          description: "Deep understanding of Indian government workflows, GeM portal procedures, and DILRMP guidelines. Experienced with multi-department coordination and seamless integration with existing IT infrastructure."
+        - name: "Custom Development & Integration"
+          icon: computer-desktop
+          description: "Technology-agnostic approach with expertise across QGIS, ArcGIS, PostGIS, and cloud platforms. Tailored solutions designed for your specific operational needs, not generic templates."
+        - name: "Scalable Cloud Infrastructure"
+          icon: cloud
+          description: "Cloud-native GIS deployments on AWS, Azure, and Google Cloud Platform. Handle millions of spatial records with sub-second query performance and enterprise-grade security."
+        - name: "DGCA Certified Operations"
+          icon: shield-check
+          description: "All drone pilots DGCA-certified with RTK-enabled precision mapping achieving centimeter-level accuracy. GeM portal registered vendor with ISO 27001 compliance standards."
   - block: features
-    id: solutions
+    id: use-cases
     content:
-      title: Transform Your Spatial Data
-      text: "Our geospatial solutions help you extract value from complex geographic information."
+      title: Featured Use Cases
+      text: "Proven solutions across critical government and enterprise sectors"
       items:
-        - name: "View Our Services"
-          icon: check
-          description: |
-            Turn raw spatial data into actionable intelligence
-            Make data-driven decisions with confidence
-            Optimize operations with location-based insights
-        - name: "See Our Work"
-          icon: bolt
-          description: |
-            15+ years of geospatial technology experience
-            Solutions across 20+ industries
-            Cutting-edge tools and methodologies
+        - name: "Revenue Department Cadastral Survey"
+          icon: map
+          description: "RTK-enabled drones with AI boundary detection transform 45-90 day survey processes into 8-12 day cluster operations, achieving centimeter-level accuracy while processing 50-100 surveys monthly. Comprehensive backlog clearance with transparent digital workflows."
+        - name: "Disaster Management Rapid Assessment"
+          icon: exclamation-triangle
+          description: "All-weather drones with thermal imaging and AI damage classification enable comprehensive disaster area assessment within 5-7 days, covering 95-100% of affected regions including remote areas. Faster relief delivery with objective, evidence-based damage assessment."
+        - name: "Urban Development Smart City Mapping"
+          icon: building-office
+          description: "Integrated GIS platform combining drone surveys, satellite imagery, and IoT sensor data to create dynamic digital twins of urban infrastructure with real-time asset monitoring capabilities. Data-driven planning with complete infrastructure visibility."
+        - name: "Agriculture Precision Farming"
+          icon: leaf
+          description: "Multispectral drone surveys combined with satellite imagery analysis deliver field-level crop health monitoring, soil moisture mapping, and variable rate application zones for fertilizer and water optimization. Enhanced productivity through timely interventions."
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
-  - block: testimonials
+  - block: features
+    id: technology
     content:
-      title: "Trusted by Industry Leaders"
-      text: "See what our clients say about our geospatial solutions"
+      title: "Comprehensive Geospatial Technology Stack"
+      text: "Built on industry-leading open-source and commercial platforms for maximum flexibility and enterprise reliability"
       items:
-        - name: "Dr. Michael Roberts"
-          role: "Director of Urban Planning, City of Austin"
-          # Upload image to `assets/media/` and reference the filename here
-          image: "testimonial-1.jpg"
-          text: "Setu Geo Spatial's smart city platform transformed how we plan infrastructure. Their geospatial analytics provided the insights we needed to optimize our urban development."
-        - name: "Sarah Johnson"
-          role: "Environmental Manager, Green Resources Inc."
-          # Upload image to `assets/media/` and reference the filename here
-          image: "testimonial-2.jpg"
-          text: "The forest fire risk assessment system developed by Setu Geo Spatial has dramatically improved our prevention capabilities, helping us protect natural resources more effectively."
-    design:
-      spacing:
-        # Reduce bottom spacing so the testimonial appears vertically centered between sections
-        padding: ["6rem", 0, "3rem", 0]
+        - name: "GIS Platforms & Analysis"
+          icon: computer-desktop
+          description: "QGIS, ArcGIS, GeoServer, PostgreSQL/PostGIS, MapInfo for advanced geospatial analysis, mapping, and robust spatial database management."
+        - name: "Drone & Remote Sensing"
+          icon: globe-alt
+          description: "DJI Enterprise Drones with RTK, Pix4D Mapper, Google Earth Engine, SNAP ESA/ENVI for photogrammetry, multispectral analysis, and satellite imagery processing at scale."
+        - name: "Web GIS & Development"
+          icon: code-bracket
+          description: "Leaflet, Mapbox GL, OpenLayers, CesiumJS, Django, Flask, React, Angular for interactive web mapping and modern responsive GIS user interfaces."
+        - name: "AI & Automation"
+          icon: sparkles
+          description: "Python GeoPandas, TensorFlow, PyTorch, YOLOv8, Rasterio, OpenCV for deep learning object detection, real-time boundary extraction, and geospatial data science."
+        - name: "Cloud Infrastructure"
+          icon: cloud
+          description: "AWS (S3, EC2, RDS), Azure Maps, Google Cloud Platform, Docker, Kubernetes for scalable GIS deployments, containerized applications, and CI/CD pipelines."
+        - name: "Mobile & Field Apps"
+          icon: device-phone-mobile
+          description: "QField, ArcGIS Field Maps, React Native, Flutter for offline-capable field data collection with GPS integration and real-time synchronization."
   - block: cta-card
     content:
-      title: Ready to Transform Your Spatial Data?
-      text: "Contact us today to discuss how our geospatial expertise can solve your specific business challenges."
+      title: "Transform Your Spatial Data Into Strategic Intelligence"
+      text: "Schedule a consultation to explore how AI-powered geospatial solutions can accelerate your department's digital transformation goals. No obligation, no commitment—just a conversation about possibilities."
       button:
-        text: "Get in Touch"
+        text: "Request Demo"
         url: /contact/
     design:
       card:
