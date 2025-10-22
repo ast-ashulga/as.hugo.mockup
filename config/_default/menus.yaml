@@ -4,17 +4,17 @@
 
 main:
   - name: Home
-    url: /#top
+    url: /
     weight: 10
-  - name: Features
-    url: /#features
+  - name: About
+    url: /about/
     weight: 20
-  - name: Solutions
-    url: /#solutions
+  - name: Services
+    url: /services/
     weight: 30
-  - name: Resources
+  - name: Use Cases
+    url: /use-cases/
     weight: 40
-    hasChildren: true
-  - parent: Resources
-    name: Blog
-    url: blog/
+  - name: Contact
+    url: /contact/
+    weight: 50

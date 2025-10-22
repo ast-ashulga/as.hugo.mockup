@@ -16,9 +16,6 @@ This is a Hugo-based landing page theme built with **Hugo Blox Builder** and **T
 
 ### Local Development
 ```bash
-# First, ensure you're using Node v16 as required:
-nvm use 16
-
 # Install dependencies
 pnpm install
 
