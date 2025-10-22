@@ -10,7 +10,7 @@ design:
 sections:
   - block: hero
     content:
-      title: Build Your Alenza Pages with Hugo Blox
+      title: Setu Geo Spatial Software Technologies
       text: 🧱 EASY. FREE (OPEN SOURCE). NO-CODE  🧱
       primary_action:
         text: Get Started
