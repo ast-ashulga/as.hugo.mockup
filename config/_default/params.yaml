@@ -11,11 +11,11 @@ appearance:
 # SEO
 marketing:
   seo:
-    site_type: Person
-    local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo landing page theme powered by Hugo Blox website builder.'
-    twitter: 'GetResearchDev'
+    site_type: Organization
+    local_business_type: 'Software Development'
+    org_name: 'Setu Geo Spatial Software Technologies'
+    description: 'Setu Geo Spatial Software Technologies provides advanced geospatial solutions for transforming geographic data into actionable intelligence.'
+    twitter: 'SetuGeoSpatial'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -34,20 +34,20 @@ header:
     align: 'center'
     fixed_to_top: true
     logo:
-      text: ''
+      text: 'Setu Geo Spatial'
       # Logo filename in `assets/media/` folder
       filename: 'logo.svg'
     button:
       enable: true
-      text: 'Get Started'
-      url: 'https://hugoblox.com/templates/'
+      text: 'Contact Us'
+      url: '/contact/'
     show_search: true
     show_theme_chooser: true
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} My Company'
+    notice: '© {year} Setu Geo Spatial Software Technologies'
 
 # Localization
 locale:

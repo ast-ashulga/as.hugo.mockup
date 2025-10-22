@@ -6,7 +6,8 @@
       "Read(//Users/andreyshulga/.claude/**)",
       "mcp__context7__get-library-docs",
       "Read(//Users/andreyshulga/projects/experimental/anil/as.anil.setu/companies/Setu Geo Spatial/portfolio_content/**)",
-      "mcp__serena__list_dir"
+      "mcp__serena__list_dir",
+      "mcp__serena__activate_project"
     ],
     "deny": [],
     "ask": []

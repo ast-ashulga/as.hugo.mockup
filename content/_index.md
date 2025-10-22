@@ -10,30 +10,27 @@ design:
 sections:
   - block: hero
     content:
-      title: Setu Geo Spatial Software Technologies
-      text: 🧱 EASY. FREE (OPEN SOURCE). NO-CODE  🧱
+      title: "AI-Enabled Geospatial Intelligence for Government & Enterprise"
+      text: Transform complex spatial data into actionable insights. Custom GIS solutions, drone mapping, and AI-powered analytics to help Indian government agencies and enterprises make data-driven decisions, optimize operations, and accelerate infrastructure development.
       primary_action:
-        text: Get Started
-        url: https://hugoblox.com/templates/
+        text: Request Demo
+        url: /contact/
         icon: rocket-launch
       secondary_action:
-        text: Read the docs
-        url: https://docs.hugoblox.com
+        text: View Case Studies
+        url: /use-cases/
       announcement:
-        text: "Announcing the release of version 1."
+        text: "Trusted by Gujarat Government departments for geospatial innovation."
         link:
-          text: "Read more"
-          url: "/blog/"
+          text: "Learn how"
+          url: "/about/"
     design:
-    #   spacing:
-    #     padding: [0, 0, 0, 0]
-    #     margin: [0, 0, 0, 0]
       # For full-screen, add `min-h-screen` below
       css_class: "dark"
       background:
         color: "navy"
         image:
-          # Add your image background to `assets/media/`.
+          # Add your image background to `assets/media/` and reference the filename here
           filename: bg-triangles.svg
           filters:
             brightness: 0.5
@@ -43,100 +40,100 @@ sections:
   - block: stats
     content:
       items:
-        - statistic: "1M+"
+        - statistic: "17+"
           description: |
-            Websites built  
-            with Hugo Blox
-        - statistic: "10k+"
+            Use Cases
+            Across Sectors
+        - statistic: "33"
           description: |
-            GitHub stars  
-            since 2016
-        - statistic: "3k+"
+            Districts
+            Served
+        - statistic: "95%"
           description: |
-            Discord community  
-            for support
+            Assessment
+            Accuracy
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
       # Reduce spacing
       spacing:
-        padding: ["1rem", 0, "1rem", 0]
+        padding: ["2rem", 0, "2rem", 0]
   - block: features
     id: features
     content:
-      title: Features
-      text: Build your site with blocks 🧱
+      title: Key Value Propositions
+      text: "Why government agencies and enterprises choose Setu Geo Spatial"
       items:
-        - name: Optimized SEO
-          icon: magnifying-glass
-          description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of SEO and syndication.
-        - name: Fast
-          icon: bolt
-          description: Super fast page load with Tailwind CSS and super fast site building with Hugo.
-        - name: Easy
+        - name: "End-to-End GIS Solutions"
+          icon: arrows-circular
+          description: "From data acquisition and drone surveys to custom GIS application development and cloud deployment. Single partner for all spatial intelligence needs with complete project lifecycle management."
+        - name: "AI + Drone Technology Advantage"
           icon: sparkles
-          description: One-click deployment to GitHub Pages. Have your new website live within 5 minutes!
-        - name: No-Code
-          icon: code-bracket
-          description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
-        - name: Highly Rated
-          icon: star
-          description: Rated 5-stars by the community.
-        - name: Swappable Blocks
-          icon: rectangle-group
-          description: Build your pages with blocks - no coding required!
-  - block: cta-image-paragraph
-    id: solutions
+          description: "Proprietary AI models transform raw geospatial data into actionable intelligence. Automated boundary detection, damage assessment, and crop health analysis reduce manual processing time by 10-50x."
+        - name: "Government Procurement Experience"
+          icon: building-office
+          description: "Deep understanding of Indian government workflows, GeM portal procedures, and DILRMP guidelines. Experienced with multi-department coordination and seamless integration with existing IT infrastructure."
+        - name: "Custom Development & Integration"
+          icon: computer-desktop
+          description: "Technology-agnostic approach with expertise across QGIS, ArcGIS, PostGIS, and cloud platforms. Tailored solutions designed for your specific operational needs, not generic templates."
+        - name: "Scalable Cloud Infrastructure"
+          icon: cloud
+          description: "Cloud-native GIS deployments on AWS, Azure, and Google Cloud Platform. Handle millions of spatial records with sub-second query performance and enterprise-grade security."
+        - name: "DGCA Certified Operations"
+          icon: shield-check
+          description: "All drone pilots DGCA-certified with RTK-enabled precision mapping achieving centimeter-level accuracy. GeM portal registered vendor with ISO 27001 compliance standards."
+  - block: features
+    id: use-cases
     content:
+      title: Featured Use Cases
+      text: "Proven solutions across critical government and enterprise sectors"
       items:
-        - title: Build your future-proof website
-          text: As easy as 1, 2, 3!
-          feature_icon: check
-          features:
-            - "Future-proof - edit your content in text files"
-            - "Website is generated by a single app, Hugo"
-            - "No JavaScript knowledge required"
-          # Upload image to `assets/media/` and reference the filename here
-          image: build-website.png
-          button:
-            text: Get Started
-            url: https://hugoblox.com/templates/
-        - title: Large Community
-          text: Join our large community on Discord - ask questions and get live responses
-          feature_icon: bolt
-          features:
-            - "Dedicated support channel"
-            - "3,000+ users on Discord"
-            - "Share your site and get feedback"
-          # Upload image to `assets/media/` and reference the filename here
-          image: coffee.jpg
-          button:
-            text: Join Discord
-            url: https://discord.gg/z8wNYzb
+        - name: "Revenue Department Cadastral Survey"
+          icon: map
+          description: "RTK-enabled drones with AI boundary detection transform 45-90 day survey processes into 8-12 day cluster operations, achieving centimeter-level accuracy while processing 50-100 surveys monthly. Comprehensive backlog clearance with transparent digital workflows."
+        - name: "Disaster Management Rapid Assessment"
+          icon: exclamation-triangle
+          description: "All-weather drones with thermal imaging and AI damage classification enable comprehensive disaster area assessment within 5-7 days, covering 95-100% of affected regions including remote areas. Faster relief delivery with objective, evidence-based damage assessment."
+        - name: "Urban Development Smart City Mapping"
+          icon: building-office
+          description: "Integrated GIS platform combining drone surveys, satellite imagery, and IoT sensor data to create dynamic digital twins of urban infrastructure with real-time asset monitoring capabilities. Data-driven planning with complete infrastructure visibility."
+        - name: "Agriculture Precision Farming"
+          icon: leaf
+          description: "Multispectral drone surveys combined with satellite imagery analysis deliver field-level crop health monitoring, soil moisture mapping, and variable rate application zones for fertilizer and water optimization. Enhanced productivity through timely interventions."
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
-  - block: testimonials
+  - block: features
+    id: technology
     content:
-      title: ""
-      text: ""
+      title: "Comprehensive Geospatial Technology Stack"
+      text: "Built on industry-leading open-source and commercial platforms for maximum flexibility and enterprise reliability"
       items:
-        - name: "Hugo Smith"
-          role: "Marketing Executive at X"
-          # Upload image to `assets/media/` and reference the filename here
-          image: "testimonial-1.jpg"
-          text: "Awesome, so easy to use and saved me so much work with the swappable pre-designed sections!"
-    design:
-      spacing:
-        # Reduce bottom spacing so the testimonial appears vertically centered between sections
-        padding: ["6rem", 0, 0, 0]
+        - name: "GIS Platforms & Analysis"
+          icon: computer-desktop
+          description: "QGIS, ArcGIS, GeoServer, PostgreSQL/PostGIS, MapInfo for advanced geospatial analysis, mapping, and robust spatial database management."
+        - name: "Drone & Remote Sensing"
+          icon: globe-alt
+          description: "DJI Enterprise Drones with RTK, Pix4D Mapper, Google Earth Engine, SNAP ESA/ENVI for photogrammetry, multispectral analysis, and satellite imagery processing at scale."
+        - name: "Web GIS & Development"
+          icon: code-bracket
+          description: "Leaflet, Mapbox GL, OpenLayers, CesiumJS, Django, Flask, React, Angular for interactive web mapping and modern responsive GIS user interfaces."
+        - name: "AI & Automation"
+          icon: sparkles
+          description: "Python GeoPandas, TensorFlow, PyTorch, YOLOv8, Rasterio, OpenCV for deep learning object detection, real-time boundary extraction, and geospatial data science."
+        - name: "Cloud Infrastructure"
+          icon: cloud
+          description: "AWS (S3, EC2, RDS), Azure Maps, Google Cloud Platform, Docker, Kubernetes for scalable GIS deployments, containerized applications, and CI/CD pipelines."
+        - name: "Mobile & Field Apps"
+          icon: device-phone-mobile
+          description: "QField, ArcGIS Field Maps, React Native, Flutter for offline-capable field data collection with GPS integration and real-time synchronization."
   - block: cta-card
     content:
-      title: Build your future-proof website
-      text: As easy as 1, 2, 3!
+      title: "Transform Your Spatial Data Into Strategic Intelligence"
+      text: "Schedule a consultation to explore how AI-powered geospatial solutions can accelerate your department's digital transformation goals. No obligation, no commitment—just a conversation about possibilities."
       button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
+        text: "Request Demo"
+        url: /contact/
     design:
       card:
         # Card background color (CSS class)
