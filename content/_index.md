@@ -36,7 +36,6 @@ sections:
             brightness: 0.5
           size: cover
           position: center
-          parallax: false
   - block: stats
     content:
       items:

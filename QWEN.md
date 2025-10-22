@@ -10,7 +10,7 @@ This is a Hugo-based landing page theme built with **Hugo Blox Builder** and **T
 - Tailwind CSS v4 + Preact for interactive components
 - pnpm v10.14.0 (package manager)
 - Go 1.19+ (for Hugo modules)
-- Node.js (required for development)
+- Node.js v22+ (required for development)
 
 ## Building and Running
 
