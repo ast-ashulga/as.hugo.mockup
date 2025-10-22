@@ -33,14 +33,16 @@ Satellite and drone imagery provide up-to-date information about land use, veget
 
 Advanced algorithms can analyze spatial relationships and predict future trends. This allows cities to proactively address issues related to traffic congestion, resource allocation, and environmental impact.
 
-## Real-World Impact
+## Real-World Impact Potential
 
-Our work with the City of Austin demonstrates the transformative potential of geospatial technology in urban planning. By implementing a comprehensive GIS platform, the city was able to:
+Modern geospatial technology offers transformative potential for urban planning. Cities implementing comprehensive GIS platforms can achieve:
 
-- Reduce infrastructure development time by 25%
-- Improve resource allocation effectiveness by 30%
-- Increase public satisfaction with urban services
-- Enhance environmental monitoring capabilities
+- Reduced infrastructure development time through better planning
+- Improved resource allocation through data-driven decisions
+- Enhanced public satisfaction with urban services
+- Better environmental monitoring and sustainability outcomes
+
+These technologies are particularly relevant for Indian cities facing rapid urbanization, where smart planning and efficient resource management are critical for sustainable development.
 
 ## Looking Forward
 
