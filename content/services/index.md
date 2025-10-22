@@ -17,7 +17,7 @@ sections:
       background:
         color: "navy"
         image:
-          filename: bg-triangles.svg
+          filename: services-hero.svg
           filters:
             brightness: 0.5
           size: cover
@@ -54,6 +54,9 @@ sections:
     content:
       title: Industry Solutions
       text: "Specialized geospatial applications across critical sectors"
+      image:
+        filename: industry-solutions.svg
+        alt: "Industry sector solutions for government and enterprise"
       items:
         - name: "Government Revenue & Land"
           icon: document-text

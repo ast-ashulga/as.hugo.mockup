@@ -188,10 +188,12 @@ Content here
 - Technical credibility: Emphasize planned DGCA certification, GeM portal registration, ISO 27001 compliance, OGC standards
 - Content tone: Present capabilities professionally while being honest about startup stage (avoid claiming completed projects or existing clients)
 
-**Project Reference (company_setu_geo_spatial.md):**
-- Untracked document in project root contains comprehensive service portfolio and use case details
-- Use as reference for creating new content pages or expanding existing sections
-- Lists 13+ industry sectors with specific use cases (Urban Planning, Utilities, Transportation, Agriculture, etc.)
+**Content Research Repository:**
+- Standalone research repository: `/Users/andreyshulga/projects/experimental/anil/as.anil.setu`
+- Primary content source: `/Users/andreyshulga/projects/experimental/anil/as.anil.setu/companies/Setu Geo Spatial/`
+- Contains comprehensive service portfolio, use case details, and content research
+- Use as primary reference for creating new content pages or expanding existing sections
+- Includes detailed industry sector documentation (Urban Planning, Utilities, Transportation, Agriculture, etc.)
 
 **Tone & Messaging:**
 - Professional but approachable; avoid overly technical jargon

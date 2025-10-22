@@ -35,7 +35,7 @@ sections:
         Our name "Setu" (Sanskrit for "bridge") reflects our role: bridging advanced geospatial technology with practical government and enterprise applications. Based in Gujarat, we bring deep understanding of Indian government procurement processes, compliance requirements, and multi-department coordination challenges.
       items:
         - name: "Our Mission"
-          icon: target
+          icon: flag
           description: |
             Transform raw spatial data into actionable insights that drive smarter decisions across government and enterprise. Democratize access to geospatial intelligence through custom solutions designed for Indian operational contexts.
         - name: "Our Vision"
@@ -43,7 +43,7 @@ sections:
           description: |
             Building India's spatial intelligence infrastructure, one department at a time. A future where every government department and enterprise has seamless access to real-time geospatial intelligence for smart governance and data-driven operations.
         - name: "Our Approach"
-          icon: arrows-circular
+          icon: arrow-path
           description: |
             End-to-end service delivery from data acquisition through deployment. Technology-agnostic solutions that prioritize client control and long-term maintainability. Single partner accountability for complete solution delivery.
     design:
@@ -55,7 +55,7 @@ sections:
       text: "What sets us apart in the geospatial intelligence market"
       items:
         - name: "End-to-End Service Delivery"
-          icon: arrows-circular
+          icon: arrow-path
           description: |
             Complete geospatial project lifecycle management from data acquisition and drone operations through custom GIS application development, cloud deployment, training, and ongoing support. Single partner accountability for entire solution delivery.
         - name: "AI + Drone Technology Leadership"

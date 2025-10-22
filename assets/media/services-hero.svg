@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <rect width="1200" height="400" fill="#1e3a8a"/>
+  <text x="600" y="180" font-family="Arial, sans-serif" font-size="56" fill="#ffffff" text-anchor="middle" font-weight="bold">
+    Comprehensive GIS Services
+  </text>
+  <text x="600" y="240" font-family="Arial, sans-serif" font-size="28" fill="#60a5fa" text-anchor="middle">
+    End-to-End Geospatial Solutions
+  </text>
+  <text x="600" y="290" font-family="Arial, sans-serif" font-size="20" fill="#93c5fd" text-anchor="middle">
+    From Data Acquisition to Cloud Deployment
+  </text>
+</svg>
