@@ -90,10 +90,9 @@ sections:
         - name: "Revenue Department Cadastral Survey"
           icon: map
           description: "<a href='/use-cases/revenue/' class='btn btn-primary mt-2'>RTK-enabled drones with AI boundary detection transform 45-90 day survey processes into 8-12 day cluster operations, achieving centimeter-level accuracy while processing 50-100 surveys monthly. Comprehensive backlog clearance with transparent digital workflows. </a>"
-        - name: "Disaster Management Rapid Assessment"
+        - name: "[Disaster Management Rapid Assessment](/use-cases/disaster-management/)"
           icon: exclamation-triangle
-          description: "All-weather drones with thermal imaging and AI damage classification enable comprehensive disaster area assessment within 5-7 days, covering 95-100% of affected regions including remote areas. Faster relief delivery with objective, evidence-based damage assessment."
-          url: "/use-cases/disaster-management/"
+          description: "All-weather drones with thermal imaging and AI damage classification enable comprehensive disaster area assessment within 5-7 days, covering 95-100% of affected regions including remote areas. Faster relief delivery with objective, evidence-based damage assessment. [**Learn more ..**](/use-cases/disaster-management/)"
         - name: "Urban Development Smart City Mapping"
           icon: building-office
           description: "Integrated GIS platform combining drone surveys, satellite imagery, and IoT sensor data to create dynamic digital twins of urban infrastructure with real-time asset monitoring capabilities. Data-driven planning with complete infrastructure visibility."
