@@ -68,16 +68,16 @@ sections:
           icon: rectangle-stack
           description: "From data acquisition and drone surveys to custom GIS application development and cloud deployment. Single partner for all spatial intelligence needs with complete project lifecycle management."
         - name: "AI + Drone Technology Advantage"
-          image: concept-ai-drone.svg
+          icon: cpu-chip
           description: "Proprietary AI models transform raw geospatial data into actionable intelligence. Automated boundary detection, damage assessment, and crop health analysis reduce manual processing time by 10-50x."
         - name: "Government Procurement Experience"
-          image: concept-government.svg
+          icon: building-library
           description: "Deep understanding of Indian government workflows, GeM portal procedures, and DILRMP guidelines. Experienced with multi-department coordination and seamless integration with existing IT infrastructure."
         - name: "Custom Development & Integration"
           icon: computer-desktop
           description: "Technology-agnostic approach with expertise across QGIS, ArcGIS, PostGIS, and cloud platforms. Tailored solutions designed for your specific operational needs, not generic templates."
         - name: "Scalable Cloud Infrastructure"
-          image: concept-cloud-gis.svg
+          icon: server-stack
           description: "Cloud-native GIS deployments on AWS, Azure, and Google Cloud Platform. Handle millions of spatial records with sub-second query performance and enterprise-grade security."
         - name: "DGCA Certified Operations"
           icon: shield-check
