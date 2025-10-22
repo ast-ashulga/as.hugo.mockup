@@ -65,19 +65,19 @@ sections:
       text: "Why government agencies and enterprises choose Setu Geo Spatial"
       items:
         - name: "End-to-End GIS Solutions"
-          icon: arrows-circular
+          icon: rectangle-stack
           description: "From data acquisition and drone surveys to custom GIS application development and cloud deployment. Single partner for all spatial intelligence needs with complete project lifecycle management."
         - name: "AI + Drone Technology Advantage"
-          icon: sparkles
+          image: concept-ai-drone.svg
           description: "Proprietary AI models transform raw geospatial data into actionable intelligence. Automated boundary detection, damage assessment, and crop health analysis reduce manual processing time by 10-50x."
         - name: "Government Procurement Experience"
-          icon: building-office
+          image: concept-government.svg
           description: "Deep understanding of Indian government workflows, GeM portal procedures, and DILRMP guidelines. Experienced with multi-department coordination and seamless integration with existing IT infrastructure."
         - name: "Custom Development & Integration"
           icon: computer-desktop
           description: "Technology-agnostic approach with expertise across QGIS, ArcGIS, PostGIS, and cloud platforms. Tailored solutions designed for your specific operational needs, not generic templates."
         - name: "Scalable Cloud Infrastructure"
-          icon: cloud
+          image: concept-cloud-gis.svg
           description: "Cloud-native GIS deployments on AWS, Azure, and Google Cloud Platform. Handle millions of spatial records with sub-second query performance and enterprise-grade security."
         - name: "DGCA Certified Operations"
           icon: shield-check
@@ -108,6 +108,9 @@ sections:
     content:
       title: "Comprehensive Geospatial Technology Stack"
       text: "Built on industry-leading open-source and commercial platforms for maximum flexibility and enterprise reliability"
+      image:
+        filename: tech-stack.svg
+        alt: "Geospatial technology stack visualization showing platform layers"
       items:
         - name: "GIS Platforms & Analysis"
           icon: computer-desktop

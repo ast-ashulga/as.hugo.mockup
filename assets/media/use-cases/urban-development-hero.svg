@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <rect width="1200" height="600" fill="#7c2d12"/>
+  <text x="600" y="250" font-family="Arial, sans-serif" font-size="48" fill="#ffffff" text-anchor="middle" font-weight="bold">
+    Smart City Asset Mapping
+  </text>
+  <text x="600" y="310" font-family="Arial, sans-serif" font-size="32" fill="#fb923c" text-anchor="middle">
+    Integrated 3D GIS &amp; Digital Twin Platform
+  </text>
+  <text x="600" y="370" font-family="Arial, sans-serif" font-size="24" fill="#fdba74" text-anchor="middle">
+    PostGIS database • CesiumJS visualization • IoT integration
+  </text>
+</svg>

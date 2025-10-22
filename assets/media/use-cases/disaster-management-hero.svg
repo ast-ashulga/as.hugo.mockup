@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <rect width="1200" height="600" fill="#1e3a8a"/>
+  <text x="600" y="250" font-family="Arial, sans-serif" font-size="48" fill="#ffffff" text-anchor="middle" font-weight="bold">
+    Post-Disaster Damage Assessment
+  </text>
+  <text x="600" y="310" font-family="Arial, sans-serif" font-size="32" fill="#60a5fa" text-anchor="middle">
+    AI-Powered Rapid Assessment System
+  </text>
+  <text x="600" y="370" font-family="Arial, sans-serif" font-size="24" fill="#93c5fd" text-anchor="middle">
+    All-weather drones • Thermal imaging • 5-7 day delivery
+  </text>
+</svg>
