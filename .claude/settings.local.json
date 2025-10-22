@@ -11,7 +11,10 @@
       "Read(//private/tmp/**)",
       "Bash(pnpm dev)",
       "Bash(hugo mod clean:*)",
-      "Bash(pkill:*)"
+      "Bash(pkill:*)",
+      "Read(//Users/andreyshulga/projects/experimental/anil/as.anil.setu/companies/**)",
+      "Bash(find:*)",
+      "Read(//Users/andreyshulga/Library/Caches/hugo_cache/modules/**)"
     ],
     "deny": [],
     "ask": []

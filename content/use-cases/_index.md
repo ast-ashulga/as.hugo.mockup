@@ -22,22 +22,20 @@ sections:
             brightness: 0.5
           size: cover
           position: center
-  - block: features
+  - block: collection
     id: use-cases
     content:
-      title: Featured Projects
-      text: "See how we've transformed geospatial challenges into strategic advantages"
-      items:
-        - name: "Smart City Infrastructure Planning"
-          icon: building-office
-          description: "Comprehensive urban planning solution for metropolitan area development and resource allocation."
-        - name: "Forest Fire Risk Assessment"
-          icon: fire
-          description: "Advanced predictive modeling for forest fire risk management and emergency response planning."
-        - name: "Precision Agriculture Monitoring"
-          icon: fire
-          description: "Satellite-based crop monitoring system increasing yield by 23% for large farming cooperatives."
-        - name: "Coastal Erosion Tracking"
-          icon: map
-          description: "Long-term coastal monitoring system providing critical data for climate adaptation strategies."
+      title: Use Cases Across Sectors
+      text: "17+ proven geospatial solutions for government and enterprise"
+      filters:
+        folders:
+          - use-cases
+        exclude_featured: false
+      sort_by: 'Date'
+      sort_ascending: false
+      count: 20
+    design:
+      view: article-grid
+      columns: 3
+      fill_image: false
 ---
