@@ -98,7 +98,7 @@ sections:
           icon: building-office
           description: "Integrated GIS platform combining drone surveys, satellite imagery, and IoT sensor data to create dynamic digital twins of urban infrastructure with real-time asset monitoring capabilities. Data-driven planning with complete infrastructure visibility."
         - name: "Agriculture Precision Farming"
-          icon: leaf
+          icon: sun
           description: "Multispectral drone surveys combined with satellite imagery analysis deliver field-level crop health monitoring, soil moisture mapping, and variable rate application zones for fertilizer and water optimization. Enhanced productivity through timely interventions."
     design:
       # Section background color (CSS class)
