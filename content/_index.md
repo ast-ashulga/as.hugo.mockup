@@ -95,7 +95,7 @@ sections:
         - name: "[Disaster Management Rapid Assessment](/use-cases/disaster-management/)"
           icon: exclamation-triangle
           description: "All-weather drones with thermal imaging and AI damage classification enable comprehensive disaster area assessment within 5-7 days, covering 95-100% of affected regions including remote areas. Faster relief delivery with objective, evidence-based damage assessment. [**Learn more ..**](/use-cases/disaster-management/)"
-        - name: "Urban Development Smart City Mapping"
+        - name: "Urban Development & Smart City Mapping"
           icon: building-office
           description: "Integrated GIS platform combining drone surveys, satellite imagery, and IoT sensor data to create dynamic digital twins of urban infrastructure with real-time asset monitoring capabilities. Data-driven planning with complete infrastructure visibility."
           url: "/use-cases/urban-development/"
@@ -114,6 +114,26 @@ sections:
     design:
       # Section background color (CSS class)
       css_class: "features-inline-header bg-gray-100 dark:bg-gray-900"
+  - block: features
+    id: trust-indicators
+    content:
+      title: Designed for Indian Government & Enterprise
+      text: "Specialized geospatial intelligence solutions addressing India's unique operational requirements"
+      items:
+        - name: "Government Departments"
+          icon: building-library
+          description: "Revenue Department cadastral surveys, Disaster Management rapid assessment, Urban Development smart city planning, Agriculture precision farming programs."
+        - name: "Infrastructure & Utilities"
+          icon: wrench-screwdriver
+          description: "Water distribution networks, sewerage systems, pipeline management under AMRUT/JJM programs with real-time asset tracking and predictive maintenance."
+        - name: "Enterprise Operations"
+          icon: building-office-2
+          description: "Transportation logistics optimization, real estate development planning, energy infrastructure monitoring, and telecommunications network expansion."
+        - name: "Compliance & Standards"
+          icon: shield-check
+          description: "DGCA certified drone operations, GeM portal registered vendor, ISO 27001 information security compliance, OGC standards implementation, DILRMP alignment."
+    design:
+      css_class: "features-inline-header"
   - block: features
     id: technology
     content:

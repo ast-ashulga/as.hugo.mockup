@@ -14,8 +14,12 @@ marketing:
     site_type: Organization
     local_business_type: 'Software Development'
     org_name: 'Setu Geo Spatial Software Technologies'
-    description: 'Setu Geo Spatial Software Technologies provides advanced geospatial solutions for transforming geographic data into actionable intelligence.'
+    description: 'AI-enabled geospatial intelligence solutions for Indian government agencies and enterprises. Custom GIS development, drone mapping, and spatial analytics for data-driven decision making.'
     twitter: 'SetuGeoSpatial'
+    # Open Graph / Facebook
+    image: 'icon.svg'  # Default OG image (1200x630px recommended)
+    # Twitter Card
+    twitter_card: 'summary_large_image'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -25,6 +29,11 @@ marketing:
   verification:
     google: ''
     baidu: ''
+
+# Favicon
+favicon:
+  icon: 'icon.svg'
+  icon_pack: 'emoji'
 
 # Site header
 header:
@@ -39,7 +48,7 @@ header:
       filename: 'logo.svg'
     button:
       enable: true
-      text: 'Contact Us'
+      text: 'Request Demo'
       url: '/contact/'
     show_search: true
     show_theme_chooser: true
@@ -53,3 +62,8 @@ footer:
 locale:
   date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
+
+# Custom JavaScript
+plugins:
+  js:
+    - path: 'js/sticky-cta.js'
