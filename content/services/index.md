@@ -17,11 +17,12 @@ sections:
       background:
         color: "navy"
         image:
-          filename: services-hero.svg
+          filename: bg-triangles.svg
           filters:
             brightness: 0.5
           size: cover
           position: center
+          parallax: true
   - block: features
     id: services
     content:
