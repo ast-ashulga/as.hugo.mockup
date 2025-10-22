@@ -67,3 +67,4 @@ locale:
 plugins:
   js:
     - path: 'js/sticky-cta.js'
+    - path: 'js/hero-particles.js'

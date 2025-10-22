@@ -232,7 +232,7 @@ a {
 }
 
 /* ===================================
-   HERO SECTION ENHANCEMENTS
+   IMPRESSIVE HERO SECTION ENHANCEMENTS
    =================================== */
 
 /* Hero section with improved visual hierarchy */
@@ -240,6 +240,55 @@ a {
   position: relative;
   overflow: hidden;
   min-height: 600px;
+}
+
+/* Animated gradient background overlay */
+.hero::before, [class*="hero"]::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  background: linear-gradient(
+    135deg,
+    rgba(79, 70, 229, 0.3) 0%,
+    rgba(99, 102, 241, 0.2) 25%,
+    rgba(129, 140, 248, 0.15) 50%,
+    rgba(67, 56, 202, 0.2) 75%,
+    rgba(79, 70, 229, 0.3) 100%
+  );
+  animation: gradientRotate 15s ease infinite;
+  z-index: 1;
+  pointer-events: none;
+}
+
+@keyframes gradientRotate {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.2);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+/* Dark overlay for text contrast */
+.hero::after, [class*="hero"]::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg,
+    rgba(15, 23, 42, 0.85) 0%,
+    rgba(30, 41, 59, 0.8) 50%,
+    rgba(15, 23, 42, 0.85) 100%);
+  z-index: 2;
+  pointer-events: none;
 }
 
 /* Parallax effect for background image */
@@ -253,80 +302,166 @@ a {
 @keyframes subtleFloat {
   0%, 100% {
     transform: translateY(0) scale(1);
+    opacity: 0.3;
   }
   50% {
-    transform: translateY(-20px) scale(1.02);
+    transform: translateY(-20px) scale(1.05);
+    opacity: 0.5;
   }
-}
-
-/* Gradient overlay for better text contrast */
-.hero::before, [class*="hero"]::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(135deg,
-    rgba(30, 41, 59, 0.9) 0%,
-    rgba(51, 65, 85, 0.85) 50%,
-    rgba(30, 41, 59, 0.9) 100%);
-  z-index: 1;
-  pointer-events: none;
 }
 
 /* Hero content positioning */
 .hero-content, [class*="hero"] > div {
   position: relative;
-  z-index: 2;
+  z-index: 3;
   padding: 4rem 0;
 }
 
-/* Enhanced title typography */
+/* Enhanced title typography with gradient text effect */
 .hero h1, [class*="hero"] h1 {
   font-size: clamp(2.5rem, 5vw, 4rem);
   font-weight: 800;
   line-height: 1.1;
   margin-bottom: 1.5rem;
   letter-spacing: -0.02em;
+  background: linear-gradient(135deg,
+    rgb(255, 255, 255) 0%,
+    rgb(226, 232, 240) 50%,
+    rgb(203, 213, 225) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: fadeInUp 0.8s ease-out;
 }
 
-/* Improved subtitle/description */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Improved subtitle/description with animation */
 .hero .text-xl, [class*="hero"] .text-xl {
   font-size: clamp(1.1rem, 2vw, 1.5rem);
-  line-height: 1.5;
+  line-height: 1.6;
   margin-bottom: 2rem;
-  opacity: 0.95;
+  color: rgba(226, 232, 240, 0.95);
   max-width: 800px;
+  animation: fadeInUp 0.8s ease-out 0.2s both;
 }
 
-/* CTA button group spacing */
+/* CTA button group spacing with animation */
 .hero .button-group, [class*="hero"] .button-group {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
   margin-top: 2rem;
+  animation: fadeInUp 0.8s ease-out 0.4s both;
 }
 
-/* Announcement badge styling */
+/* Announcement badge styling with enhanced glassmorphism */
 .hero .announcement, [class*="hero"] .announcement {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
   padding: 0.5rem 1rem;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
   border-radius: 9999px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   margin-bottom: 2rem;
   font-size: 0.9rem;
-  transition: all 0.3s ease;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  animation: fadeInUp 0.8s ease-out 0.6s both;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
 
 .hero .announcement:hover, [class*="hero"] .announcement:hover {
-  background: rgba(255, 255, 255, 0.15);
-  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.25);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
 }
+
+/* ===================================
+   GEOMETRIC PARTICLES SYSTEM
+   =================================== */
+
+/* Particles container */
+.hero-particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+/* Individual particle styling */
+.particle {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  animation: particleFloat 20s infinite ease-in-out;
+}
+
+.particle.circle {
+  border-radius: 50%;
+}
+
+.particle.triangle {
+  width: 0;
+  height: 0;
+  background: transparent;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 35px solid rgba(129, 140, 248, 0.08);
+}
+
+/* Particle animation variants */
+@keyframes particleFloat {
+  0%, 100% {
+    transform: translate(0, 0) rotate(0deg);
+    opacity: 0.3;
+  }
+  25% {
+    transform: translate(100px, -50px) rotate(90deg);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translate(50px, -100px) rotate(180deg);
+    opacity: 0.4;
+  }
+  75% {
+    transform: translate(-50px, -75px) rotate(270deg);
+    opacity: 0.6;
+  }
+}
+
+/* Particle size variations */
+.particle-sm { width: 40px; height: 40px; }
+.particle-md { width: 60px; height: 60px; }
+.particle-lg { width: 80px; height: 80px; }
+.particle-xl { width: 100px; height: 100px; }
+
+/* Animation delay variants for staggered effect */
+.particle:nth-child(1) { animation-delay: 0s; left: 10%; top: 20%; }
+.particle:nth-child(2) { animation-delay: -5s; left: 70%; top: 10%; }
+.particle:nth-child(3) { animation-delay: -10s; left: 30%; top: 60%; }
+.particle:nth-child(4) { animation-delay: -15s; left: 85%; top: 50%; }
+.particle:nth-child(5) { animation-delay: -7s; left: 50%; top: 30%; }
+.particle:nth-child(6) { animation-delay: -12s; left: 20%; top: 70%; }
+.particle:nth-child(7) { animation-delay: -3s; left: 60%; top: 80%; }
+.particle:nth-child(8) { animation-delay: -18s; left: 90%; top: 25%; }
 
 /* Responsive hero adjustments */
 @media (max-width: 768px) {
@@ -342,6 +477,121 @@ a {
     flex-direction: column;
     align-items: stretch;
   }
+
+  /* Reduce particles on mobile */
+  .particle:nth-child(n+5) {
+    display: none;
+  }
+}
+
+/* ===================================
+   SCROLL-TRIGGERED REVEAL ANIMATIONS
+   =================================== */
+
+/* Base state for scroll reveal elements */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+/* Revealed state */
+.reveal-on-scroll.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Staggered animations for child elements */
+.reveal-on-scroll.revealed .features > div,
+.reveal-on-scroll.revealed .grid > div {
+  animation: staggerFadeIn 0.6s ease-out backwards;
+}
+
+.reveal-on-scroll.revealed .features > div:nth-child(1),
+.reveal-on-scroll.revealed .grid > div:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.reveal-on-scroll.revealed .features > div:nth-child(2),
+.reveal-on-scroll.revealed .grid > div:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.reveal-on-scroll.revealed .features > div:nth-child(3),
+.reveal-on-scroll.revealed .grid > div:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.reveal-on-scroll.revealed .features > div:nth-child(4),
+.reveal-on-scroll.revealed .grid > div:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+@keyframes staggerFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===================================
+   PAGE-SPECIFIC HEADER VARIATIONS
+   =================================== */
+
+/* Homepage hero - Full-screen with enhanced effects */
+.page-home .hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.page-home .hero::before {
+  background: linear-gradient(
+    135deg,
+    rgba(79, 70, 229, 0.4) 0%,
+    rgba(99, 102, 241, 0.3) 25%,
+    rgba(129, 140, 248, 0.2) 50%,
+    rgba(67, 56, 202, 0.3) 75%,
+    rgba(79, 70, 229, 0.4) 100%
+  );
+}
+
+/* About page hero - Professional gradient */
+.page-about .hero::before {
+  background: linear-gradient(
+    135deg,
+    rgba(16, 185, 129, 0.3) 0%,
+    rgba(34, 197, 94, 0.2) 50%,
+    rgba(16, 185, 129, 0.3) 100%
+  );
+  animation-duration: 20s;
+}
+
+/* Services page hero - Tech-focused gradient */
+.page-services .hero::before {
+  background: linear-gradient(
+    135deg,
+    rgba(236, 72, 153, 0.3) 0%,
+    rgba(168, 85, 247, 0.2) 33%,
+    rgba(99, 102, 241, 0.2) 66%,
+    rgba(236, 72, 153, 0.3) 100%
+  );
+  animation-duration: 18s;
+}
+
+/* Use Cases page hero - Impact-focused gradient */
+.page-use-cases .hero::before {
+  background: linear-gradient(
+    135deg,
+    rgba(249, 115, 22, 0.3) 0%,
+    rgba(251, 146, 60, 0.2) 50%,
+    rgba(249, 115, 22, 0.3) 100%
+  );
+  animation-duration: 22s;
 }
 
 /* ===================================
