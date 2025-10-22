@@ -80,12 +80,44 @@ sections:
             DGCA-certified drone pilots with 500+ flight hours. GeM portal registered vendor. ISO 27001 information security standards compliance. OGC standards implementation for data interoperability. DILRMP and e-Governance standards alignment.
     design:
       css_class: "features-inline-header"
+  - block: features
+    id: team
+    content:
+      title: Our Leadership Team
+      text: "Experienced professionals bringing deep expertise in geospatial technology, government solutions, and enterprise software delivery"
+      items:
+        - name: "Technical Leadership"
+          icon: code-bracket
+          description: |
+            **GIS Development & Architecture**
+
+            Deep expertise in custom GIS application development, spatial database design, and cloud infrastructure. Led multiple large-scale geospatial projects for government departments with focus on scalability and performance optimization.
+        - name: "Operations & Delivery"
+          icon: chart-bar
+          description: |
+            **Project Management & Client Success**
+
+            Extensive experience in government procurement processes, multi-department coordination, and end-to-end project delivery. Specialized in translating complex requirements into actionable technical solutions with measurable outcomes.
+        - name: "Drone Operations"
+          icon: camera
+          description: |
+            **DGCA Certified Pilot Operations**
+
+            Professional drone pilots with 500+ flight hours, RTK-enabled precision mapping experience, and expertise in photogrammetry, multispectral imaging, and aerial survey data processing for cadastral and infrastructure applications.
+        - name: "AI & Analytics"
+          icon: sparkles
+          description: |
+            **Machine Learning & Automation**
+
+            Specialists in computer vision, object detection, and geospatial AI model development. Focus on automated boundary extraction, damage assessment algorithms, and real-time spatial intelligence for decision support systems.
+    design:
+      css_class: "features-inline-header bg-gray-100 dark:bg-gray-900"
   - block: cta-card
     content:
       title: "Let's Discuss Your Geospatial Challenges"
-      text: "Every organization's spatial data needs are unique. Schedule a consultation to explore how our end-to-end GIS solutions can address your specific operational requirements and strategic goals."
+      text: "Every organization's spatial data needs are unique. Request a demo to explore how our end-to-end GIS solutions can address your specific operational requirements and strategic goals."
       button:
-        text: "Schedule Consultation"
+        text: "Request Demo"
         url: "/contact/"
     design:
       card:
