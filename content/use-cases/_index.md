@@ -26,7 +26,7 @@ sections:
     id: use-cases
     content:
       title: Use Cases Across Sectors
-      text: "17+ proven geospatial solutions for government and enterprise"
+      text: "15+ proven geospatial solutions for government and enterprise"
       filters:
         folders:
           - use-cases
@@ -37,5 +37,5 @@ sections:
     design:
       view: article-grid
       columns: 3
-      fill_image: false
+      fill_image: true
 ---
