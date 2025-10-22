@@ -89,16 +89,27 @@ sections:
       items:
         - name: "Revenue Department Cadastral Survey"
           icon: map
-          description: "RTK-enabled drones with AI boundary detection transform 45-90 day survey processes into 8-12 day cluster operations, achieving centimeter-level accuracy while processing 50-100 surveys monthly. Comprehensive backlog clearance with transparent digital workflows."
+          description: "<a href='/use-cases/revenue/' class='btn btn-primary mt-2'>RTK-enabled drones with AI boundary detection transform 45-90 day survey processes into 8-12 day cluster operations, achieving centimeter-level accuracy while processing 50-100 surveys monthly. Comprehensive backlog clearance with transparent digital workflows. </a>"
         - name: "Disaster Management Rapid Assessment"
           icon: exclamation-triangle
           description: "All-weather drones with thermal imaging and AI damage classification enable comprehensive disaster area assessment within 5-7 days, covering 95-100% of affected regions including remote areas. Faster relief delivery with objective, evidence-based damage assessment."
+          url: "/use-cases/disaster-management/"
         - name: "Urban Development Smart City Mapping"
           icon: building-office
           description: "Integrated GIS platform combining drone surveys, satellite imagery, and IoT sensor data to create dynamic digital twins of urban infrastructure with real-time asset monitoring capabilities. Data-driven planning with complete infrastructure visibility."
+          url: "/use-cases/urban-development/"
         - name: "Agriculture Precision Farming"
           icon: sun
           description: "Multispectral drone surveys combined with satellite imagery analysis deliver field-level crop health monitoring, soil moisture mapping, and variable rate application zones for fertilizer and water optimization. Enhanced productivity through timely interventions."
+          url: "/use-cases/precision-agriculture/"
+        - name: "Utilities Infrastructure Asset Management"
+          icon: wrench-screwdriver
+          description: "Comprehensive GIS platforms for water, sewerage, and pipeline networks under AMRUT/JJM programs. Real-time asset tracking, predictive maintenance scheduling, outage management, and network optimization reduce operational costs while improving service delivery to citizens."
+          url: "/use-cases/utilities-infrastructure/"
+        - name: "Transportation & Logistics Optimization"
+          icon: truck
+          description: "Advanced route optimization, fleet tracking, and traffic analysis systems leverage real-time GPS data and AI-powered predictive modeling. Supply chain efficiency improvements, reduced fuel consumption, and optimized delivery schedules for government logistics and commercial operations."
+          url: "/use-cases/transportation/"
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
