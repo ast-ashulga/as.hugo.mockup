@@ -16,7 +16,8 @@
       "Bash(find:*)",
       "Read(//Users/andreyshulga/Library/Caches/hugo_cache/modules/**)",
       "Read(//Users/andreyshulga/projects/experimental/anil/as.anil.setu/**)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "mcp__serena__get_current_config"
     ],
     "deny": [],
     "ask": []

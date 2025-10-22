@@ -38,4 +38,14 @@ sections:
       view: article-grid
       columns: 3
       fill_image: true
+  - block: cta-card
+    content:
+      title: "Ready to Implement Geospatial Intelligence for Your Organization?"
+      text: "These use cases demonstrate what's possible with custom geospatial solutions. Schedule a consultation to discover how we can adapt these proven approaches to your specific operational challenges and deliver measurable results."
+      button:
+        text: "Discuss Your Use Case"
+        url: /contact/
+    design:
+      card:
+        css_class: "bg-primary-300"
 ---

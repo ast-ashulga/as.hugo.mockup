@@ -27,87 +27,83 @@ sections:
     id: services
     content:
       title: Core Service Categories
-      text: "Seven comprehensive service areas covering the complete geospatial lifecycle"
+      text: "Six comprehensive service areas delivering end-to-end geospatial intelligence from data acquisition to cloud deployment"
       items:
         - name: "Custom GIS Software Development"
           icon: computer-desktop
-          description: "Build tailored geospatial applications designed specifically for your operational workflows. Web GIS applications, mobile field collection apps, 3D digital twins, and GIS dashboards with analytics. Technologies: Leaflet, Mapbox GL, CesiumJS, Django, Flask, React, Angular."
-        - name: "Geospatial Data Services"
+          description: "Build tailored geospatial applications designed for your operational workflows. Web GIS platforms with real-time analytics, mobile field collection apps, 3D digital twins, and enterprise dashboards. Technology-agnostic development with Leaflet, Mapbox, CesiumJS, React, and Django. Full-stack expertise from database design to user interface."
+        - name: "Geospatial Data Services & Management"
           icon: map
-          description: "Transform raw spatial data into structured, analysis-ready formats. Spatial data digitization, CAD to GIS conversion, geodatabase design and management, topographic and cadastral mapping. Formats: Shapefile, GeoJSON, PostGIS, ArcGIS Geodatabase."
-        - name: "Remote Sensing & Image Analysis"
+          description: "Transform raw spatial data into structured, analysis-ready intelligence. Spatial data digitization, CAD to GIS conversion, geodatabase design with PostGIS/ArcSDE, topographic and cadastral mapping. OGC-compliant data formats ensuring seamless integration with government systems and enterprise workflows."
+        - name: "DGCA-Compliant Drone & UAV Operations"
+          icon: camera
+          description: "Aerial intelligence through certified drone operations and advanced photogrammetry. High-resolution surveys, 3D terrain modeling, orthomosaic generation, infrastructure inspection, stockpile measurement. DJI Enterprise platforms (Phantom 4 RTK, Matrice series) with Pix4D and Agisoft processing. Licensed pilots with government project experience."
+        - name: "AI-Powered Remote Sensing & Image Analysis"
           icon: globe-alt
-          description: "Extract actionable intelligence from satellite imagery and drone surveys. Land Use/Land Cover classification, vegetation indices for crop health, 3D orthomosaics, AI-based object detection, and environmental terrain analysis. Platforms: Landsat, Sentinel-2, Pix4D, Google Earth Engine."
-        - name: "Spatial Analytics & Decision Intelligence"
-          icon: chart-bar
-          description: "Transform spatial data into strategic insights through advanced analytics. Hotspot analysis, route optimization, predictive modeling with Geo-AI, real-time GIS with IoT integration. Tools: Python GeoPandas, ArcGIS Spatial Statistics, machine learning frameworks."
-        - name: "GIS for Government & Infrastructure"
+          description: "Extract actionable insights from satellite and drone imagery using custom AI models. Land Use/Land Cover classification, vegetation indices, change detection, automated object recognition for infrastructure and assets. Multi-source integration: Landsat, Sentinel-2, drone surveys. Google Earth Engine and TensorFlow-powered analysis at scale."
+        - name: "Government & Infrastructure GIS Solutions"
           icon: building-office
-          description: "Specialized geospatial solutions for government departments and large infrastructure projects. Smart city GIS, water/sewerage asset mapping, land records and cadastral mapping, disaster management and emergency response. Programs: Smart Cities Mission, DILRMP, AMRUT, Jal Jeevan Mission."
-        - name: "Cloud, AI & Automation"
+          description: "Specialized geospatial systems for government departments and large infrastructure projects. Smart city platforms, water/sewerage asset mapping under AMRUT/JJM, land records digitization with BhuNaksha integration, disaster management dashboards for state EOCs. GeM-registered with government tender experience and multi-department coordination capability."
+        - name: "Cloud-Native GIS & Spatial Analytics"
           icon: cloud
-          description: "Modernize geospatial infrastructure with cloud-native deployments and AI-powered automation. Cloud GIS deployment on AWS/Azure/GCP, AI/ML-powered feature extraction, RESTful spatial APIs, and DevOps for GIS applications with Docker/Kubernetes."
-        - name: "Training, Consulting & Support"
-          icon: academic-cap
-          description: "Build internal geospatial capacity through customized training and strategic consulting. GIS implementation consulting, data governance and metadata management, hands-on workshops for QGIS/ArcGIS/PostGIS, and ongoing maintenance with technical support."
+          description: "Modern geospatial infrastructure with cloud deployment and AI automation. Scalable cloud GIS on AWS/Azure/GCP, spatial data APIs with microservices architecture, real-time analytics with IoT integration, predictive modeling with Geo-AI. DevOps-ready with Docker, Kubernetes, and CI/CD pipelines for continuous deployment."
+    design:
+      css_class: "features-inline-header"
   - block: features
     id: industries
     content:
       title: Industry Solutions
-      text: "Specialized geospatial applications across critical sectors"
+      text: "Specialized geospatial intelligence for India's critical government and enterprise sectors"
       image:
         filename: industry-solutions.svg
         alt: "Industry sector solutions for government and enterprise"
       items:
-        - name: "Government Revenue & Land"
+        - name: "Government Revenue & Land Management"
           icon: document-text
-          description: "Cadastral surveys, land records digitization, property mapping, BhuNaksha integration, automated 7/12 extract generation."
-        - name: "Disaster Management"
+          description: "End-to-end land records modernization for state revenue departments. Cadastral surveys with drone mapping, digital 7/12 extracts, property tax assessment, BhuNaksha integration, and GIS-based land dispute resolution. Survey-grade accuracy with CORS/RTK support. Multi-district deployment experience with revenue staff training."
+        - name: "Disaster Management & Emergency Response"
           icon: exclamation-triangle
-          description: "Damage assessment, flood mapping, emergency coordination, evacuation route planning, GSDMA SEOC dashboards."
-        - name: "Urban Development & Smart Cities"
+          description: "Real-time situational awareness for state and district emergency operations centers. Post-disaster damage assessment with drone surveys, flood inundation mapping, evacuation route optimization, resource allocation dashboards. Integration with GSDMA SEOC, NDMA frameworks. Rapid deployment capability with pre-configured mobile GIS units for field coordination."
+        - name: "Smart Cities & Urban Development"
           icon: building-office
-          description: "Asset mapping, building surveys, infrastructure monitoring, 3D city models, citizen service portals."
+          description: "Comprehensive urban GIS for Smart Cities Mission municipalities. 3D city modeling, municipal asset inventory, building surveys with drone photogrammetry, infrastructure condition assessment, property tax GIS. Citizen service portals with spatial search. Compatible with Urban Local Body systems and state municipal corporations."
         - name: "Agriculture & Precision Farming"
           icon: leaf
-          description: "Crop health monitoring, precision irrigation, soil analysis, yield prediction, subsidy verification."
-        - name: "Infrastructure & Utilities"
+          description: "Satellite and drone-based crop intelligence for agricultural departments and farmer cooperatives. Multi-spectral crop health monitoring, precision irrigation planning, soil nutrient mapping, yield prediction models, subsidy scheme verification. Integration with Kisan Call Centers, PM-KISAN databases. Scalable from district to state-wide agricultural monitoring programs."
+        - name: "Water Resources & Utilities Infrastructure"
           icon: bolt
-          description: "Pipeline mapping, network monitoring, right-of-way management, SCADA integration, outage management."
-        - name: "Transportation & Highways"
+          description: "Asset management GIS for water supply, sewerage, and utility networks under AMRUT and Jal Jeevan Mission. Underground pipeline mapping, leak detection zones, pressure monitoring integration, consumer connection tracking, Non-Revenue Water analysis. SCADA system integration for real-time operational dashboards. Multi-utility support: water, sewerage, drainage, electricity distribution."
+        - name: "Transportation & Highway Infrastructure"
           icon: truck
-          description: "Route optimization, infrastructure assessment, traffic analysis, corridor mapping, bridge inventories."
-        - name: "Mining & Geology"
-          icon: cube
-          description: "Operations monitoring, stockpile measurement, compliance tracking, terrain modeling, safety monitoring."
-        - name: "Telecommunications"
-          icon: signal
-          description: "Fiber network planning, asset management, coverage analysis, tower site selection, route optimization."
-        - name: "Real Estate & Development"
-          icon: home
-          description: "Site selection, land valuation, market analysis, demographic overlays, feasibility studies."
+          description: "Comprehensive GIS for state PWD, NHAI, and highway authorities. Corridor mapping with drone surveys, pavement condition assessment, bridge inventories, right-of-way management, accident hotspot analysis. Route optimization for logistics and public transport. Integration with FASTag data, traffic sensors, and highway patrol systems for real-time monitoring."
     design:
-      css_class: "bg-gray-100 dark:bg-gray-900"
+      css_class: "features-inline-header bg-gray-100 dark:bg-gray-900"
   - block: features
     id: technology
     content:
       title: Technology Platforms
-      text: "Open source expertise and commercial platform integration"
+      text: "Technology-agnostic expertise delivering the best solution for your requirements and budget"
       items:
-        - name: "Open Source GIS"
+        - name: "Open Source GIS Ecosystem"
           icon: code-bracket
-          description: "QGIS, GRASS GIS, PostgreSQL/PostGIS, GeoServer, MapServer, Leaflet, OpenLayers, GDAL/OGR, Python GeoPandas."
-        - name: "Commercial Platforms"
-          icon: building-library
-          description: "Esri ArcGIS (Enterprise, Pro, Online), Pix4D Mapper, Agisoft Metashape, ENVI, ERDAS IMAGINE, SNAP ESA."
-        - name: "Cloud Infrastructure"
+          description: "Cost-effective, vendor-neutral geospatial solutions with zero licensing costs. QGIS for desktop GIS, PostgreSQL/PostGIS for spatial databases, GeoServer for web mapping services, Leaflet/OpenLayers for web GIS. Python GeoPandas and GDAL for processing. No vendor lock-in with full source code access and community support. Ideal for government projects with budget constraints."
+        - name: "AI & Machine Learning for Geospatial Intelligence"
+          icon: cpu-chip
+          description: "Custom AI models trained on your domain-specific data for automated feature extraction and prediction. TensorFlow and PyTorch for deep learning, Google Earth Engine for large-scale satellite analysis, scikit-learn for predictive modeling. Applications: automated road/building detection, crop classification, land use change detection, infrastructure condition assessment. 10-50x faster than manual digitization."
+        - name: "Cloud-Native Infrastructure & DevOps"
           icon: cloud
-          description: "AWS (S3, EC2, RDS, Lambda, CloudFront), Azure Maps and Database, Google Earth Engine, Docker, Kubernetes, Terraform, Ansible."
-        - name: "Development Stack"
+          description: "Modern, scalable geospatial infrastructure designed for government and enterprise scale. AWS (S3, EC2, RDS, Lambda), Azure Maps/Database, Google Cloud Platform with auto-scaling and high availability. Containerized deployments with Docker and Kubernetes for zero-downtime updates. Infrastructure-as-Code with Terraform. CI/CD pipelines for rapid feature deployment. Security-hardened with ISO 27001-ready compliance."
+        - name: "Enterprise GIS Platforms"
+          icon: building-library
+          description: "Enterprise-grade commercial platforms when mission-critical reliability is required. Esri ArcGIS (Enterprise, Pro, ArcGIS Online) for comprehensive GIS workflows, Pix4D and Agisoft Metashape for professional photogrammetry, ENVI for advanced remote sensing. Full support for government procurement through GeM and OEM partnerships. Training and certification for your technical teams."
+        - name: "DGCA-Compliant Drone Operations"
+          icon: camera
+          description: "Certified aerial intelligence with licensed RPAS pilots and government-approved equipment. DJI Enterprise platforms: Phantom 4 RTK for precision mapping (centimeter accuracy), Matrice 300/350 RTK for industrial inspections, Mavic 3 Enterprise for rapid response. Pix4D and Agisoft Metashape for 3D modeling. Compliance: DGCA RPAS license, Digital Sky registration, NSOP approvals. Insurance coverage for government projects."
+        - name: "Standards-Based Integration & APIs"
           icon: code-bracket-square
-          description: "Python, JavaScript, TypeScript, Go. Frameworks: Django, Flask, FastAPI, Express.js, React, Angular, Vue. Databases: PostgreSQL, MongoDB, InfluxDB."
+          description: "Seamless integration with existing government and enterprise systems through open standards. OGC-compliant services (WMS, WFS, WCS, WMTS), RESTful spatial APIs, GeoJSON/KML export. Modern development stack: Python, JavaScript, TypeScript. Frameworks: Django, FastAPI, React, Angular. Database support: PostgreSQL, Oracle Spatial, SQL Server. Integration with state data centers, NIC infrastructure, and legacy systems."
     design:
-      css_class: ""
+      css_class: "features-inline-header"
   - block: cta-card
     content:
       title: "Which Spatial Challenge Should We Solve First?"

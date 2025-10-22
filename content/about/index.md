@@ -47,7 +47,7 @@ sections:
           description: |
             End-to-end service delivery from data acquisition through deployment. Technology-agnostic solutions that prioritize client control and long-term maintainability. Single partner accountability for complete solution delivery.
     design:
-      css_class: "bg-gray-100 dark:bg-gray-900"
+      css_class: "features-inline-header bg-gray-100 dark:bg-gray-900"
   - block: features
     id: capabilities
     content:
@@ -79,7 +79,7 @@ sections:
           description: |
             DGCA-certified drone pilots with 500+ flight hours. GeM portal registered vendor. ISO 27001 information security standards compliance. OGC standards implementation for data interoperability. DILRMP and e-Governance standards alignment.
     design:
-      css_class: ""
+      css_class: "features-inline-header"
   - block: cta-card
     content:
       title: "Let's Discuss Your Geospatial Challenges"
