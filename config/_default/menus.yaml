@@ -15,9 +15,12 @@ main:
   - name: Use Cases
     url: /use-cases/
     weight: 40
+  - name: Tender Setup
+    url: /company-formation-tender/
+    weight: 45
   - name: Blog
     url: /blog/
-    weight: 45
+    weight: 50
   - name: Contact
     url: /contact/
-    weight: 50
+    weight: 60
